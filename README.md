@@ -4,11 +4,11 @@
 
 For a comprehensive guide on deploying and managing cloud-native applications using AWS, Kubernetes, and DevSecOps tools, watch the detailed tutorial:
 
-[![Master Three-Tier Application | A Complete DevSecOps Guide on AWS with Kubernetes, GitOps & ArgoCD](http://img.youtube.com/vi/EVG51U3VcYs/0.jpg)](https://www.youtube.com/watch?v=EVG51U3VcYs "Mastering Cloud-Native Applications: A Complete DevSecOps Guide on AWS with Kubernetes")
+[![Master Three-Tier Application | A Complete DevSecOps Guide on AWS with Kubernetes, GitOps & ArgoCD](http://img.youtube.com/vi/EVG51U3VcYs/0.jpg)]("Mastering Cloud-Native Applications: A Complete DevSecOps Guide on AWS with Kubernetes")
 
 Click on the image above to watch the video.
 
-![gif2](https://github.com/cloudcore-hub/reactjs-quiz-app/assets/88560609/a0dfce93-3bde-45af-b82a-d7c9e2c47294)
+![gif2](#)
 
 - [Step 1: SSH Exchange between local computer and Github account.](#step-1-ssh-exchange-between-local-computer-and-github-account)
 - [Step 2: CREATE AWS Resources.](#step-2-create-aws-resources)
@@ -64,7 +64,7 @@ Before starting this project, ensure you have the following prerequisites:
 cd ~/.ssh
 ssh-keygen
 ```
-![Screenshot 2024-02-28 at 9 22 06 AM](https://github.com/cloudcore-hub/Kubernetes-DevSecOps-CI-CD-Project/assets/88560609/6fdcda62-9178-45c2-a1d6-bc7cf778cd78)
+![Screenshot 2024-02-28 at 9 22 06 AM](#)
 
 
 Give the key a name **key**. Then list **ls** the content of .ssh/ folder.
@@ -77,7 +77,7 @@ cat key.pub
 Go to the Settings of your Github account from profile section.
 Go to Access Section on the left **SSH and GPG Keys** and **New SSH key**. Give a title and paste the content of key.pub
 
-![Screenshot 2024-02-28 at 9 27 39 AM](https://github.com/cloudcore-hub/Kubernetes-DevSecOps-CI-CD-Project/assets/88560609/9cfbd7f0-27f9-4180-b5e1-a18e2eb8386f)
+![Screenshot 2024-02-28 at 9 27 39 AM](#)
 
 
 Back to the computer terminal and run the command
@@ -105,7 +105,7 @@ cd ..
 cd reactjs-quiz-app
 git config core.sshCommand "ssh -i ~/.ssh/key -F /dev/null"
 ```
-![Screenshot 2024-02-28 at 9 34 55 AM](https://github.com/cloudcore-hub/Kubernetes-DevSecOps-CI-CD-Project/assets/88560609/20b80975-9212-4fe8-95cf-4d1b63317665)
+![Screenshot 2024-02-28 at 9 34 55 AM](#)
 
 
 #### Connect the repository to your Github
